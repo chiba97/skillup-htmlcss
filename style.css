@@ -93,6 +93,7 @@ img{
   height: 250px;
   background-image:url(img/sketch.jpg) ;
   background-size: cover;
+  background-position: center;
 }
 .box2{
   margin-bottom: 10px;
@@ -101,6 +102,7 @@ img{
   height: 250px;
   background-image: url(img/talk.jpg);
   background-size: cover;
+  background-position: center;
 }
 .box3{
   margin-bottom: 10px;
@@ -108,13 +110,14 @@ img{
   height: 250px;
   background-image: url(img/webcamp-mother.png);
   background-size: cover;
-
+  background-position: center;
 }
 .box4{
   width: 300px;
   height: 250px;
   background-image: url(img/webcamp.png);
   background-size: cover;
+  background-position: center;
 }
 .box5{
   margin: 0 10px;
@@ -122,12 +125,14 @@ img{
   height: 250px;
   background-image: url(img/websuku.png);
   background-size: cover;
+  background-position: center;
 }
 .box6{
   width: 300px;
   height: 250px;
   background-image: url(img/write.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 
@@ -242,7 +247,7 @@ img{
 
 .contact-contents{
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
 }
 .tel-mail{
   width: 400px;
@@ -254,12 +259,15 @@ img{
   font-size: 20px;
   margin-bottom: 5px;
 }
+.tel-mail-id{
+  padding-left: 180px;
+}
 .mail-id{
   margin-bottom: 20px;
 }
 
 .contact-contents .tool{
-  text-align: center;
+  padding-left: 60px;
   padding: 0 auto;
   width: 400px;
 }
